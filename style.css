@@ -1,0 +1,36 @@
+/* mulish font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@900&family=Mulish:wght@400;800&display=swap');
+* {
+    font-family: 'Mulish', sans-serif;
+}
+.icon {
+    width: 48px;
+height: 56.008px;
+}
+.nav-title {
+    color: #FF5400;
+}
+.banner {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    width: 500px;
+}
+.button {
+    background-color: #FF5400;
+    border: none;
+    text-align: center;
+    -webkit-text-fill-color: azure;
+}
+img {
+    height: 550px;
+    width: 540px;
+    border-radius: 8px;
+}
+.part-2 {
+    display: flex;
+}
+.part-3 {
+    width: 573px;
+height: 300px;
+display: flex;
+}
