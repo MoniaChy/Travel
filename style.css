@@ -8,6 +8,13 @@
     color: #131318;
 font-size: 36px;
 font-weight: 800;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+.icon-img .icon {
+    display: flex;
+    padding: 2px;
 }
 nav {
     display: flex;
@@ -76,6 +83,7 @@ img {
 .part-2 {
     display: flex;
     height: calc(( 100% - 5px ) /2 );
+    padding: 5px;
 }
 .part-2 > img {
     width: 100%;
@@ -148,14 +156,82 @@ main {
     border: 5px;
     display: grid;
     grid-template-columns: column;
-    padding: auto;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 16px;
+    width: 393px;
+height: 52px;
+align-items: center;
 }
-@media screen and (max=width=576px) {
-    header {
-        padding: 20px;
-
-    }
-    nav > .icon > a {
-        flex-direction: column;
-    }
+.save-img {
+    width: 672px;
+height: 422px;
+position: relative;
 }
+.save-70 {
+    background-color: #FF5400;
+    padding: 0;
+    border-radius: 16px;
+    width: 324px;
+height: 100px;
+transform: rotate(-19.628deg);
+position: relative;
+bottom: -250px;
+text-align: center;
+top: 100px;
+}
+.footer {
+    background-color: bisque;
+    align-items: center;
+    text-align: center;
+}
+footer img {
+    display: block;
+    margin: auto;
+    width: 174.322px;
+height: 24px;
+flex-shrink: 0;
+align-items: center;
+padding: 20px;
+}
+.footer-flex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+footer hr {
+    width: 872px;
+height: 1px;
+color: #131318;
+}
+    @media screen and (max-width: 576px) {
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        ul {
+            margin-top: 10px;
+        }
+    
+        li {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    
+        .banner {
+            padding: 60px 20px;
+        }
+    
+        .card {
+            width: 100%;
+        }
+    
+        /* Adjustments for smaller screens */
+        .ma-in,
+        .sri-no-ka,
+        .ba-band {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
